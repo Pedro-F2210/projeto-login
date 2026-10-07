@@ -32,6 +32,7 @@ body {
   background-image: url('../imagens/imagem_metal.jpg');
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: center right;
   border-radius: 20px 20px 0px 0px;
 }
 
@@ -88,6 +89,10 @@ main p {
   border: 1px solid var(--cor-azul2);
 }
 
+#entrar:hover {
+  background-color: var(--cor-azul3);
+}
+
 #botao {
   border-radius: 5px;
   border: 1px solid var(--cor-azul2);
@@ -104,6 +109,10 @@ main a {
   display: block;
   text-decoration-line: none;
   color: var(--cor-azul3);
+}
+
+#botao:hover {
+  background-color: var(--cor-azul);
 }
 
 .input {

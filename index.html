@@ -20,9 +20,10 @@
             </div>
 
             <form action="login.php" method="post" autocomplete="on">
-                <div class="campos"><span  class="material-symbols-outlined icon">person</span><input type="email" name="email" id="iemail" placeholder="seu e-mail" class="input"></div>
+                <div class="campos"><span  class="material-symbols-outlined icon">person</span><input type="email" name="email" id="iemail" placeholder="seu e-mail" class="input" required maxlength="30">
+                </div>
 
-                <div class="campos"><span class="material-symbols-outlined icon">key</span> <input type="password" name="pass" id="ipass" class="input" placeholder="sua senha"></div>
+                <div class="campos"><span class="material-symbols-outlined icon">key</span> <input type="password" name="pass" id="ipass" class="input" placeholder="sua senha" required></div>
                 <div><input type="submit" value="Entrar" id="entrar"></div>
                 <div id="botao"><a href="" >Esqueci a senha</a><span class="material-symbols-outlined" id="icone-mail">mail</span></div>
             </form>
